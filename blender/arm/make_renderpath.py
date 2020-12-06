@@ -346,7 +346,8 @@ def build():
         assets.add_khafile_def('rp_chromatic_aberration')
         assets.add_shader_pass('chromatic_aberration_pass')
 
-    gbuffer2 = '_Veloc' in wrd.world_defs
+    #gbuffer2 = '_Veloc' in wrd.world_defs
+    gbuffer2 = '_Veloc'
     if gbuffer2:
         assets.add_khafile_def('rp_gbuffer2')
         wrd.world_defs += '_gbuffer2'

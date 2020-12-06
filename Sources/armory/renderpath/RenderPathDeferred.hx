@@ -544,6 +544,7 @@ class RenderPathDeferred {
 		path.bindTarget("_main", "gbufferD");
 		path.bindTarget("gbuffer0", "gbuffer0");
 		path.bindTarget("gbuffer1", "gbuffer1");
+		path.bindTarget("gbuffer2", "gbuffer2");
 		#if (rp_ssgi != "Off")
 		{
 			if (armory.data.Config.raw.rp_ssgi != false) {
